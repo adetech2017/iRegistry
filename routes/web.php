@@ -7,9 +7,9 @@ use App\Exports\OrganizationSurveysExport;
 use Maatwebsite\Excel\Facades\Excel;
 
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -21,7 +21,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::get('/organization-form', [OrganizationSurveyController::class, 'create'])->name('organizationForm');
+Route::get('/', [OrganizationSurveyController::class, 'create'])->name('organizationForm');
 Route::post('/organization-form', [OrganizationSurveyController::class, 'store'])->name('submit.organizationForm');
 
 
