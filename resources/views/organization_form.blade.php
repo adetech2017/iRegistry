@@ -451,10 +451,10 @@
                         <option value="Audit Office">Audit Office</option>
                         <option value="ICT Office">ICT Office</option>
                         <option value="PRO Office">PRO Office</option>
-                        <option value="Legal Offcie">Legal Offcie</option>
-                        <option value="Procurement Offcie">Procurement Offcie</option>
-                        <option value="Planing Offcie">Planing Offcie</option>
-                        <option value="Other Offcie">Other Offcie</option>
+                        <option value="Legal Office">Legal Office</option>
+                        <option value="Procurement Office">Procurement Office</option>
+                        <option value="Planing Office">Planing Office</option>
+                        <option value="Other Office">Other Office</option>
                     </select>
 
                 </td>
